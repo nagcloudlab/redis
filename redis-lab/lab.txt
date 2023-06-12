@@ -25,3 +25,16 @@ sudo systemctl stop redis-server
 
 
 
+----------------------------------------------------------------
+
+
+to start sentinel
+
+
+redis-server --sentinel redis-lab/sentinel-1.conf
+
+----------------------------------------------------------------
+
+
+
+
