@@ -1,2 +1,2 @@
-file appendonly.aof.11.base.rdb seq 11 type b
-file appendonly.aof.11.incr.aof seq 11 type i
+file appendonly.aof.2.base.rdb seq 2 type b
+file appendonly.aof.2.incr.aof seq 2 type i

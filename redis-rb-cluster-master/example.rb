@@ -11,7 +11,7 @@ else
     ]
 end
 
-rc = RedisCluster.new(startup_nodes,32,:timeout => 0.1)
+rc = RedisCluster.new(startup_nodes,32,:timeout => 0.1) 
 
 last = false
 
@@ -27,7 +27,7 @@ end
 
 ((last.to_i+1)..1000000000).each{|x|
     begin
-        rc.set("foo#{x}",x)
+        rc.set("foo#{x}",x) 
         puts rc.get("foo#{x}")
         rc.set("__last__",x)
     rescue => e
